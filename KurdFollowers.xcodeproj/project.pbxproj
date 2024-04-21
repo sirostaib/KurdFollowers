@@ -10,6 +10,11 @@
 		16C7F2942BD28F85006211EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2932BD28F85006211EE /* AppDelegate.swift */; };
 		16C7F2962BD28F85006211EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2952BD28F85006211EE /* SceneDelegate.swift */; };
 		16C7F29D2BD28F87006211EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C7F29C2BD28F87006211EE /* Assets.xcassets */; };
+		16C7F2A82BD5221F006211EE /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2A72BD5221F006211EE /* SearchVC.swift */; };
+		16C7F2AA2BD52263006211EE /* SavedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2A92BD52263006211EE /* SavedVC.swift */; };
+		16C7F2B02BD52A4A006211EE /* KFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2AF2BD52A4A006211EE /* KFButton.swift */; };
+		16C7F2B22BD52BEA006211EE /* KFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2B12BD52BEA006211EE /* KFTextField.swift */; };
+		16C7F2B42BD53513006211EE /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2B32BD53513006211EE /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +23,11 @@
 		16C7F2952BD28F85006211EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		16C7F29C2BD28F87006211EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16C7F2A12BD28F87006211EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C7F2A72BD5221F006211EE /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		16C7F2A92BD52263006211EE /* SavedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedVC.swift; sourceTree = "<group>"; };
+		16C7F2AF2BD52A4A006211EE /* KFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFButton.swift; sourceTree = "<group>"; };
+		16C7F2B12BD52BEA006211EE /* KFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFTextField.swift; sourceTree = "<group>"; };
+		16C7F2B32BD53513006211EE /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 				16C7F2952BD28F85006211EE /* SceneDelegate.swift */,
 				16C7F29C2BD28F87006211EE /* Assets.xcassets */,
 				16C7F2A12BD28F87006211EE /* Info.plist */,
+				16C7F2A72BD5221F006211EE /* SearchVC.swift */,
+				16C7F2A92BD52263006211EE /* SavedVC.swift */,
+				16C7F2AF2BD52A4A006211EE /* KFButton.swift */,
+				16C7F2B12BD52BEA006211EE /* KFTextField.swift */,
+				16C7F2B32BD53513006211EE /* FollowerListVC.swift */,
 			);
 			path = KurdFollowers;
 			sourceTree = "<group>";
@@ -127,8 +142,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16C7F2B02BD52A4A006211EE /* KFButton.swift in Sources */,
+				16C7F2AA2BD52263006211EE /* SavedVC.swift in Sources */,
+				16C7F2A82BD5221F006211EE /* SearchVC.swift in Sources */,
 				16C7F2942BD28F85006211EE /* AppDelegate.swift in Sources */,
+				16C7F2B22BD52BEA006211EE /* KFTextField.swift in Sources */,
 				16C7F2962BD28F85006211EE /* SceneDelegate.swift in Sources */,
+				16C7F2B42BD53513006211EE /* FollowerListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +285,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KurdFollowers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -291,6 +312,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KurdFollowers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
