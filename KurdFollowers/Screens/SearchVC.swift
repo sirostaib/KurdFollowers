@@ -1,3 +1,4 @@
+
 //
 //  SearchVC.swift
 //  KurdFollowers
@@ -12,6 +13,10 @@ class SearchVC: UIViewController {
     let logoImageView = UIImageView()
     let usernameTextField = KFTextField()
     let callToActionButton = KFButton(bgColor: .systemCyan, title: "Search Now")
+    
+    var isUserNameEntered: Bool {
+        return !usernameTextField.text!.isEmpty
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +38,10 @@ class SearchVC: UIViewController {
     }
     
     @objc private func pushFollowerListVC(){
-        print("did tappppp")
+        guard isUserNameEntered else { 
+            presentKFAlertOnMainThread(title:  "Username is Empty!", message: "Please provide a username 🧐", buttonTitle: "Good")
+            return
+        }
         let followerListVC = FollowerListVC()
         followerListVC.username = usernameTextField.text
         followerListVC.title = usernameTextField.text
