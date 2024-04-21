@@ -19,6 +19,8 @@
 		16C7F2B82BD53B47006211EE /* KFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2B72BD53B47006211EE /* KFBodyLabel.swift */; };
 		16C7F2BA2BD53BF7006211EE /* KFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2B92BD53BF7006211EE /* KFAlertVC.swift */; };
 		16C7F2BC2BD54290006211EE /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2BB2BD54290006211EE /* UIViewController+Ext.swift */; };
+		16C7F2C42BD54BA2006211EE /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2C32BD54BA2006211EE /* Follower.swift */; };
+		16C7F2C62BD54C03006211EE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2C52BD54C03006211EE /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		16C7F2B72BD53B47006211EE /* KFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFBodyLabel.swift; sourceTree = "<group>"; };
 		16C7F2B92BD53BF7006211EE /* KFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFAlertVC.swift; sourceTree = "<group>"; };
 		16C7F2BB2BD54290006211EE /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		16C7F2C32BD54BA2006211EE /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		16C7F2C52BD54C03006211EE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 		16C7F2922BD28F85006211EE /* KurdFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				16C7F2C12BD54B8E006211EE /* Models */,
 				16C7F2BD2BD545BC006211EE /* Screens */,
 				16C7F2BE2BD545DB006211EE /* Custom Views */,
 				16C7F2BF2BD54604006211EE /* Extentions */,
@@ -115,6 +120,15 @@
 				16C7F29C2BD28F87006211EE /* Assets.xcassets */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		16C7F2C12BD54B8E006211EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16C7F2C32BD54BA2006211EE /* Follower.swift */,
+				16C7F2C52BD54C03006211EE /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16C7F2C62BD54C03006211EE /* User.swift in Sources */,
 				16C7F2B62BD539EB006211EE /* KFTitleLabel.swift in Sources */,
 				16C7F2B02BD52A4A006211EE /* KFButton.swift in Sources */,
 				16C7F2AA2BD52263006211EE /* SavedVC.swift in Sources */,
@@ -193,6 +208,7 @@
 				16C7F2A82BD5221F006211EE /* SearchVC.swift in Sources */,
 				16C7F2BA2BD53BF7006211EE /* KFAlertVC.swift in Sources */,
 				16C7F2942BD28F85006211EE /* AppDelegate.swift in Sources */,
+				16C7F2C42BD54BA2006211EE /* Follower.swift in Sources */,
 				16C7F2B22BD52BEA006211EE /* KFTextField.swift in Sources */,
 				16C7F2962BD28F85006211EE /* SceneDelegate.swift in Sources */,
 				16C7F2B82BD53B47006211EE /* KFBodyLabel.swift in Sources */,
