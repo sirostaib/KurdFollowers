@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ErrorMessage: String {
+enum KFError: String, Error {
     case invalidUsername = "The username is invalid! Please try again."
     case noInternet =  "Something went wrong! Please check your internet connection!"
     case unableToComplete = "Something went wrong! Please try again later."

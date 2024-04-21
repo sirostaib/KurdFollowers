@@ -22,7 +22,9 @@
 		16C7F2C42BD54BA2006211EE /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2C32BD54BA2006211EE /* Follower.swift */; };
 		16C7F2C62BD54C03006211EE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2C52BD54C03006211EE /* User.swift */; };
 		16C7F2C92BD54F53006211EE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2C82BD54F53006211EE /* NetworkManager.swift */; };
-		16C7F2CC2BD55822006211EE /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2CB2BD55822006211EE /* ErrorMessage.swift */; };
+		16C7F2CC2BD55822006211EE /* KFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2CB2BD55822006211EE /* KFError.swift */; };
+		16C7F2CF2BD55D4F006211EE /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2CE2BD55D4F006211EE /* FollowerCell.swift */; };
+		16C7F2D12BD55DEF006211EE /* KFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7F2D02BD55DEF006211EE /* KFAvatarImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +45,9 @@
 		16C7F2C32BD54BA2006211EE /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		16C7F2C52BD54C03006211EE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		16C7F2C82BD54F53006211EE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		16C7F2CB2BD55822006211EE /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		16C7F2CB2BD55822006211EE /* KFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFError.swift; sourceTree = "<group>"; };
+		16C7F2CE2BD55D4F006211EE /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		16C7F2D02BD55DEF006211EE /* KFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFAvatarImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 		16C7F2BE2BD545DB006211EE /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				16C7F2CD2BD55D38006211EE /* Cells */,
 				16C7F2B92BD53BF7006211EE /* KFAlertVC.swift */,
 				16C7F2B12BD52BEA006211EE /* KFTextField.swift */,
 				16C7F2AF2BD52A4A006211EE /* KFButton.swift */,
 				16C7F2B52BD539EB006211EE /* KFTitleLabel.swift */,
 				16C7F2B72BD53B47006211EE /* KFBodyLabel.swift */,
+				16C7F2D02BD55DEF006211EE /* KFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -148,9 +154,17 @@
 		16C7F2CA2BD55812006211EE /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				16C7F2CB2BD55822006211EE /* ErrorMessage.swift */,
+				16C7F2CB2BD55822006211EE /* KFError.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		16C7F2CD2BD55D38006211EE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				16C7F2CE2BD55D4F006211EE /* FollowerCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,11 +243,13 @@
 				16C7F2BC2BD54290006211EE /* UIViewController+Ext.swift in Sources */,
 				16C7F2A82BD5221F006211EE /* SearchVC.swift in Sources */,
 				16C7F2BA2BD53BF7006211EE /* KFAlertVC.swift in Sources */,
+				16C7F2CF2BD55D4F006211EE /* FollowerCell.swift in Sources */,
 				16C7F2942BD28F85006211EE /* AppDelegate.swift in Sources */,
-				16C7F2CC2BD55822006211EE /* ErrorMessage.swift in Sources */,
+				16C7F2CC2BD55822006211EE /* KFError.swift in Sources */,
 				16C7F2C42BD54BA2006211EE /* Follower.swift in Sources */,
 				16C7F2B22BD52BEA006211EE /* KFTextField.swift in Sources */,
 				16C7F2C92BD54F53006211EE /* NetworkManager.swift in Sources */,
+				16C7F2D12BD55DEF006211EE /* KFAvatarImageView.swift in Sources */,
 				16C7F2962BD28F85006211EE /* SceneDelegate.swift in Sources */,
 				16C7F2B82BD53B47006211EE /* KFBodyLabel.swift in Sources */,
 				16C7F2B42BD53513006211EE /* FollowerListVC.swift in Sources */,
